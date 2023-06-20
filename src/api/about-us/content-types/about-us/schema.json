@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_uses",
+  "info": {
+    "singularName": "about-us",
+    "pluralName": "about-uses",
+    "displayName": "About Us"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "heading": {
+      "type": "string",
+      "default": "About Us",
+      "required": true
+    },
+    "aboutContent": {
+      "type": "richtext",
+      "required": true
+    },
+    "aboutHistoryList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-card.list"
+    }
+  }
+}
