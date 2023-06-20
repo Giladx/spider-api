@@ -1,4 +1,11 @@
 module.exports = ({ env }) => ({
+  //...
+  'import-export-entries': {
+    enabled: true,
+    config: {
+      serverPublicHostname: 'https://dashboard.render.com/', // Default:"".
+    },
+  },
   // ...
   upload: {
     config: {

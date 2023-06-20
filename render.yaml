@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: strapi
+    name: strapi-spet
     env: node
     plan: starter
     buildCommand: yarn install && yarn build
@@ -9,7 +9,7 @@ services:
     autoDeploy: false
     envVars:
       - key: NODE_VERSION
-        value: ~16.13.0
+        value: ~16.14.2
       - key: NODE_ENV
         value: production
       - key: CLOUDINARY_NAME
