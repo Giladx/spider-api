@@ -15,7 +15,10 @@
     "@strapi/provider-upload-cloudinary": "^4.10.5",
     "@strapi/strapi": "4.10.5",
     "pg": "8.8.0",
-    "strapi-plugin-import-export-entries": "^1.21.0"
+    "strapi-plugin-import-export-entries": "^1.21.0",
+    "strapi-plugin-netlify-deployments": "^2.0.0",
+    "strapi-plugin-update-static-content": "^1.0.5",
+    "strapi-plugin-vercel-deploy": "^1.4.0"
   },
   "author": {
     "name": "A Strapi developer"
