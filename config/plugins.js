@@ -39,7 +39,7 @@ module.exports = ({ env }) => ({
   },
   // ...
   'update-static-content': {
-    enabled: true,
+    enabled: false,
     config: {
       githubToken: env('GITHUB_TOKEN'), // accessing personal github token from env file
       owner: 'giladx', // owner of the repo
