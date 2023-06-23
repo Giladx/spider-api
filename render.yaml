@@ -30,5 +30,5 @@ services:
         generateValue: true
 
 databases:
-  - name: strapi
+  - name: strapi-spet
     plan: starter
