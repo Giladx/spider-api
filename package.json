@@ -12,11 +12,13 @@
   "dependencies": {
     "@strapi/plugin-i18n": "4.11.2",
     "@strapi/plugin-users-permissions": "4.11.2",
+    "@strapi/provider-email-sendinblue": "github:damienassany/strapi-provider-email-sendinblue",
     "@strapi/provider-upload-cloudinary": "^4.11.2",
     "@strapi/strapi": "4.11.2",
     "pg": "8.8.0",
     "strapi-plugin-cloudflare-pages": "^0.4.1",
     "strapi-plugin-import-export-entries": "^1.21.0",
+    "strapi-plugin-navigation": "^2.2.11",
     "strapi-plugin-netlify-deployments": "^2.0.0",
     "strapi-plugin-vercel-deploy": "^1.4.0"
   },

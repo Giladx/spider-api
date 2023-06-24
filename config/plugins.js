@@ -1,5 +1,18 @@
 module.exports = ({ env }) => ({
   // ...
+   email: {
+    config: {
+      provider: 'sendinblue',
+      providerOptions: {
+        apiKey: env('SENDINBLUE_API_KEY'),
+      },
+      settings: {
+        defaultSender: { email: 'gilad@011.ninja', name: 'Spider-api' },
+        defaultReplyTo: { email: 'gilad@011.ninja', name: 'Spider-api' },
+      },
+    }
+  },
+  // ...
   upload: {
     config: {
       provider: 'cloudinary',
