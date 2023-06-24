@@ -34,13 +34,13 @@ module.exports = ({ env }) => ({
   "netlify-deployments": {
     enabled: true,
     config: {
-      accessToken: process.env.NETLIFY_ACCESS_TOKEN,
+      accessToken: env('NETLIFY_ACCESS_TOKEN'),
       sites: [
         {
-          name: process.env.NETLIFY_SITE_NAME,
-          id: process.env.NETLIFY_SITE_ID,
-          buildHook: process.env.NETLIFY_DEPLOY_HOOK,
-          branch: process.env.NETLIFY_GIT_BRANCH // optional
+          name: env('NETLIFY_SITE_NAME'),
+          id: env('NETLIFY_SITE_ID'),
+          buildHook: env('NETLIFY_DEPLOY_HOOK'),
+          branch: env('NETLIFY_GIT_BRANCH') // optional
         }
       ]
     },
