@@ -1,6 +1,6 @@
 module.exports = ({ env }) => ({
   // ...
-   email: {
+  /* email: {
     config: {
       provider: 'sendinblue',
       providerOptions: {
@@ -11,7 +11,7 @@ module.exports = ({ env }) => ({
         defaultReplyTo: { email: 'gilad@011.ninja', name: 'Spider-api' },
       },
     }
-  },
+  },*/
   // ...
   upload: {
     config: {
